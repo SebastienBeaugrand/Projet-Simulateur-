@@ -1,7 +1,7 @@
 QT -= core
 QT -= gui
 
-greaterThan(QT_MAJOR_VERSION, 4)QT  += widgets
+QT += widgets network
 
 TEMPLATE = app
 
@@ -14,8 +14,8 @@ DEFINES += NDEBUG _CONSOLE
 DEFINES += NON_MATLAB_PARSING
 DEFINES += MAX_EXT_API_CONNECTIONS=255
 DEFINES += DO_NOT_USE_SHARED_MEMORY
-LIBS += C:\Qt\Tools\mingw1120_64\x86_64-w64-mingw32\lib\libws2_32.a
-LIBS += C:\Qt\Tools\mingw1120_64\x86_64-w64-mingw32\lib\libwinmm.a
+#LIBS += C:\Qt\Tools\mingw1120_64\x86_64-w64-mingw32\lib\libws2_32.a
+#LIBS += C:\Qt\Tools\mingw1120_64\x86_64-w64-mingw32\lib\libwinmm.a
 
 
 *-msvc* {
